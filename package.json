@@ -1,0 +1,19 @@
+{
+  "name": "vue-is-ssr-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.8.3",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "vue-instantsearch": "file:./vue-is",
+    "vue-server-renderer": "^2.6.12"
+  },
+  "devDependencies": {}
+}
