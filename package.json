@@ -6,13 +6,15 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "prepare": "patch-package"
   },
   "dependencies": {
     "algoliasearch": "^4.8.3",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "vue-instantsearch": "file:./vue-is",
+    "patch-package": "^6.2.2",
+    "vue-instantsearch": "3.4.2",
     "vue-server-renderer": "^2.6.12"
   },
   "devDependencies": {}

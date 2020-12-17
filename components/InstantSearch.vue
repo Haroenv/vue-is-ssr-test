@@ -16,11 +16,12 @@ export default {
   mixins: [
     createServerRootMixin({
       searchClient,
-      indexName: "products"
+      indexName: "instant_search"
     })
   ],
   serverPrefetch() {
     return this.instantsearch.findResultsState(this).then(algoliaState => {
+      console.log('hm', algoliaState)
       this.$ssrContext.nuxt.algoliaState = algoliaState;
     });
   },
